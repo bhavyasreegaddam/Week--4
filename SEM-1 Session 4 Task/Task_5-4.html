@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps and Filter</title>
+</head>
+<body>
+    <script>
+        //Map Method
+        let numbers=[1,2,3,4,5,6,7,8,9,10];
+        let squared=numbers.map(function(num){
+            return num*num;
+        });
+        console.log("Squared Numbers:",squared);
+        
+        //Filter Method
+        let even=numbers.filter(function(num){
+            return num%2 == 0;
+        });
+        console.log("Even Numbers:",even);
+    </script>
+</body>
+</html>
